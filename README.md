@@ -2,7 +2,7 @@
 
 This is the public repository for **PFAM** — *Parallel frequency-multiplexed aberration measurement for widefield fluorescence microscopy*.  
 The original preprint is available on **bioRxiv**: **https://www.biorxiv.org/content/10.1101/2025.10.11.681535v1**.
-**Data access:** Per folder, the associated data can be provided via Google Drive upon request ([here](https://drive.google.com/file/d/1HjPRzHwD6yLF7Xw8yzognaLx_FoOjXlm/view?usp=sharing)).
+**Data access:** The associated data can be provided via Google Drive upon request ([here](https://drive.google.com/file/d/1HjPRzHwD6yLF7Xw8yzognaLx_FoOjXlm/view?usp=sharing)).
 
 ---
 
