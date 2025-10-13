@@ -2,7 +2,7 @@
 
 This is the public repository for **PFAM** — *Parallel frequency-multiplexed aberration measurement for widefield fluorescence microscopy*.  
 The original preprint is available on **bioRxiv**: **https://doi.org/10.1101/2025.10.11.681535**.  
-**Data access:** Per folder, the associated data can be provided via Google Drive upon request.
+**Data access:** Per folder, the associated data can be provided via Google Drive upon request ([here](https://drive.google.com/file/d/1HjPRzHwD6yLF7Xw8yzognaLx_FoOjXlm/view?usp=sharing)).
 
 ---
 
@@ -79,7 +79,7 @@ Each `code*` folder contains self-contained scripts and (upon request) example d
 
 1. Ensure MATLAB dependencies are installed.  
 2. Place the appropriate dataset in each target code folder’s `data/` directory (request Google Drive access if needed).  
-3. Open MATLAB in that folder and run the main script(s) for the selected CodeX.
+3. Open MATLAB in that folder and run the main script(s).
 
 ---
 
