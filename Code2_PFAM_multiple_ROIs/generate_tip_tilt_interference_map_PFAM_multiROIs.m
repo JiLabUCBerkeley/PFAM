@@ -2,8 +2,8 @@
 close all; clear; clc;
 
 %% ------------------------------ Configuration --------------------------------
-ROUND_NAME            = 'round2';     % choose data round folder
-LOAD_PREV_TEMPLATE    = true;         % if true, estimate global shift vs previous template
+ROUND_NAME            = 'round2';     % choose data round folder round1 / round2
+LOAD_PREV_TEMPLATE    = true;         % false for round 1 / true for round 2
 DEBUG_PLOT            = false;
 
 %% ------------------------------ Path Setup & Sanity Checks -------------------
@@ -241,7 +241,7 @@ sub_num = size(Intensity_saved, 1);
 %% ============================ FFT & Response Maps ===================================
 n_segment      = numel(target_segment);
 
-% Frequency bins to sample (keep your original style, truncated to n_segment)
+% Frequency bins to sample
 f = 20:1:100;
 f = f(1:n_segment);
 
@@ -270,7 +270,6 @@ end
 
 
 %% ============================ Peak Localization (Connected Components) ==============
-% Keep your Gaussian-fit residual check removed.
 % We detect bright blobs and use weighted centroids. If none found, fall back to
 % normalized Gaussian fit.
 % Locate peaks on each segment’s non-normalized FFT map and convert to angle.
@@ -279,7 +278,7 @@ pos_ref   = [ceil(n_tip_art/2), ceil(n_tilt_art/2)];
 tip_tilt_saved = zeros(n_segment, 2);       % [dy, dx] in "pixels" then scaled by pix_angle
 shift_saved    = zeros(n_segment, 2);
 
-% Pixel->angle scale (keep your chosen constant)
+% Pixel->angle scale 
 pix_angle = 0.15 / 0.6306;
 
 % Precompute small grid for Gaussian fallback
