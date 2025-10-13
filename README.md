@@ -26,7 +26,7 @@ Widefield fluorescence microscopy is widely used for imaging at subcellular reso
 
 ## Data
 
-- Place each dataset in the corresponding **code** subfolder under a `data/` directory (e.g., `code1/data/`, `code2/data/`) **before running**.  
+- Place each dataset in the corresponding **code** subfolder under a `data/` directory (e.g., `Code1_PFAM_single_ROI/data/`, `Code2_PFAM_multiple_ROIs/data/`) **before running**.  
 - Geometric configuration and segment indices for the deformable mirror (DM) **IrisAO PTT489 segmented DM** and the **Zernike polynomial** definitions are provided in the `DM_data/` directory.
 
 ---
@@ -42,7 +42,7 @@ Each `code*` folder contains self-contained scripts and (upon request) example d
   Extends Code1 to **multiple** ROIs, enabling parallel measurement across the FOV.
 
 - **Code3 – PFAM-SIFT (single ROI)**  
-  Implements PFAM with **structured illumination** (SIFT) for a single ROI.  
+  Implements PFAM with **structured illumination and Fourier Transform** (SIFT) for a single ROI.  
   Includes a **simulation** of structured-illumination patterns and sidebands.
 
 - **Code4 – PFAM-SIFT (multiple ROIs)**  
