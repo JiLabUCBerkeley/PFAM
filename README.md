@@ -87,9 +87,6 @@ Each `code*` folder contains self-contained scripts and (upon request) example d
 
 If you use PFAM/PFAM-SIFT or code from this repository, please cite:
 
-**Paper (bioRxiv)**  
-Kim, H., Kang, I., Natan, R., & Ji, N. (2025). *Parallel frequency-multiplexed aberration measurement for widefield fluorescence microscopy*. **bioRxiv**. https://doi.org/10.1101/2025.10.11.681535
-
 **BibTeX**
 ```bibtex
 @article{kim2025pfam_bioRxiv,
