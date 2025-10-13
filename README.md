@@ -89,10 +89,15 @@ If you use PFAM/PFAM-SIFT or code from this repository, please cite:
 
 **BibTeX**
 ```bibtex
-@article{kim2025pfam_bioRxiv,
-  author  = {Kim, Hyeonggeon and Kang, Iksung and Natan, Ryan and Ji, Na},
-  title   = {Parallel frequency-multiplexed aberration measurement for widefield fluorescence microscopy},
-  journal = {bioRxiv},
-  year    = {2025},
-  doi     = {10.1101/2025.10.11.681535}
+@article {Kim2025.10.11.681535,
+	author = {Kim, Hyeonggeon and Kang, Iksung and Natan, Ryan and Ji, Na},
+	title = {Parallel frequency-multiplexed aberration measurement for widefield fluorescence microscopy},
+	elocation-id = {2025.10.11.681535},
+	year = {2025},
+	doi = {10.1101/2025.10.11.681535},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Widefield fluorescence microscopy is widely used for imaging at subcellular resolution, but its performance in complex samples is degraded by optical aberrations. Because aberrations can vary spatially across the field of view (FOV), accurate aberration measurement and correction at multiple FOV locations are essential for achieving high-quality imaging over large areas. Here, we introduce parallel frequency-multiplexed aberration measurement (PFAM) to perform massively parallel aberration measurements across an extended FOV. We validated PFAM using fluorescent beads and demonstrated simultaneous measurement and effective correction of spatially varying aberrations at 125 FOV locations. To address the challenges of wavefront sensing in complex samples, we further developed PFAM-SIFT by integrating structured illumination, thereby achieving robust aberration measurement in both brain slices and the mouse brain in vivo. Together, PFAM and PFAM-SIFT provide accurate and scalable wavefront sensing solutions for widefield imaging, enabling simultaneous aberration measurement of spatially varying aberrations in complex biological samples.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2025/10/11/2025.10.11.681535},
+	eprint = {https://www.biorxiv.org/content/early/2025/10/11/2025.10.11.681535.full.pdf},
+	journal = {bioRxiv}
 }
