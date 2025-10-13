@@ -26,7 +26,7 @@ Widefield fluorescence microscopy is widely used for imaging at subcellular reso
 
 ## Data
 
-- Place each dataset in the corresponding **code** subfolder under a `data/` directory (e.g., `Code1_PFAM_single_ROI/data/`, `Code2_PFAM_multiple_ROIs/data/`) **before running**.  
+- Place each dataset in the corresponding **code** subfolder as a `data/` directory (e.g., `Code1_PFAM_single_ROI/data/`, `Code2_PFAM_multiple_ROIs/data/`) **before running**.  
 - Geometric configuration and segment indices for the deformable mirror (DM) **IrisAO PTT489 segmented DM** and the **Zernike polynomial** definitions are provided in the `DM_data/` directory.
 
 ---
